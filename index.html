@@ -4,43 +4,67 @@
 
 <html>
 	<head>
-		<style>
-			.linkDesc{
-				position: absolute;
-				left: 125px;
-				white-space: nowrap
-			}
-		
-		</style>
-		
-		<nav> <!-- If you edit this you must copy the nav to all other pages -->
-			<input type="button" onclick="window.location.href =''" value="Home"/>
-			<a href="clipLookup">clipLookup</a>
-			<input type="button" onclick="window.location.href = 'clipLookup'" value="Clip lookup"/>
-		</nav>
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="links.css">
+		<link rel="stylesheet" href="tables.css">
 		
 	</head>
 	<body>
+		<nav> <!-- If you edit this you must copy the nav to all other pages -->
+			<input class="nav" type="button" onclick="window.location.href ='/'" value="Home"/><!-- TODO make this a logo of some sort -->
+			<input class="nav" type="button" onclick="window.location.href ='people'" value="People in videos"/>
+			<input class="nav" type="button" onclick="window.location.href = 'clipLookup'" value="Clip lookup"/>
+		</nav>
 		<header>
-			<h1>CSS COMING SOON</h1>
-			
 			<h1>TacoFluffy4</h1>
-			
-			<h2>Links:</h2>
-			<a href="https://www.youtube.com/user/tacofluffy4">Gaming YouTube</a> 
-			<a class="linkDesc">New videos every Wednesday and Sunday</a>
-			<br/><a href="https://www.youtube.com/channel/UC1aKEgMhMx6MaZZpV76W52g">Second YouTube</href>
-			<a class="linkDesc">Non funny moments videos</a>
-			<br/><a href="http://www.twitch.tv/tacofluffy4">Twitch</a>
-			<a class="linkDesc">I stream sometimes</a>
-			<br/><a href="https://twitter.com/TacoFluffy4">Twitter</a>
-			<a class="linkDesc">Me trying to be funny</a>
-			<br/><a href="discord.html">Discord</a>
-			<a class="linkDesc">Vote on next weeks videos!</a>
-			<br/><a href="https://tacofluffy4.tumblr.com/">Quote Tumblr</a>
-			<a class="linkDesc">Out of context quotes from us</a>
-			<br/><a href="https://www.reddit.com/r/TacoFluffy4/">Subreddit</a>
-			<a class="linkDesc">Nobody posts here and I probably won't see it</a>
 		</header>
+		<table>
+			<tr>
+				<th>
+					<a class="table-header">Icon</a>
+				</th>
+				<th>
+					<a class="table-header">Channel</a>
+				</th>
+				<th>
+					<a class="table-header">Description</a>
+				</th>
+			</tr>
+			<tr>
+				<td><img/></td>
+				<td><a href="https://www.youtube.com/user/tacofluffy4">Gaming YouTube</a></td>
+				<td><a>New funny moments every Wednesday and Sunday.</a></td>
+			</tr>
+			<tr>
+				<td><img/></td>
+				<td><a href="https://www.youtube.com/channel/UC1aKEgMhMx6MaZZpV76W52g">Second YouTube</href>
+				<td><a>Non funny moments videos whenever I make them.</a>
+			</tr>
+			<tr>
+				<td><img/></td>
+				<td><a href="http://www.twitch.tv/tacofluffy4">Twitch</a>
+				<td><a>I stream sometimes.</a>
+			</tr>
+			<tr>
+				<td><img/></td>
+				<td><a href="https://twitter.com/TacoFluffy4">Twitter</a>
+				<td><a>Me trying to be funny.</a>
+			</tr>
+			<tr>
+				<td><img/></td>
+				<td><a href="discord">Discord</a>
+				<td><a>Vote on next weeks videos!</a>
+			</tr>
+			<tr>
+				<td><img/></td>
+				<td><a href="https://tacofluffy4.tumblr.com/">Quote Tumblr</a>
+				<td><a>Out of context quotes from us.</a>
+			</tr>
+			<tr>
+				<td><img/></td>
+				<td><a href="https://www.reddit.com/r/TacoFluffy4/">Subreddit</a>
+				<td><a>Nobody posts here and I probably won't see it.</a>
+			</tr>
+		</table>
 	</body>
 </html>
