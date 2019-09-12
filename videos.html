@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+<html>
+	<head>
+		<link rel="stylesheet" href="main.css">
+		
+		<style>
+			#iframe{
+				width: 40vw;
+				height: calc(.5625 * 40vw);
+			}
+		</style>
+	</head>
+	<body>
+		<nav> <!-- If you edit this you must copy the nav to all other pages -->
+			<input class="nav" type="button" onclick="window.location.href ='/'" value="Home"/><!-- TODO make this a logo of some sort -->
+			<input class="nav" type="button" onclick="window.location.href ='people'" value="People in videos"/>
+			<input class="nav" type="button" onclick="window.location.href = 'videos'" value="Videos"/>
+		</nav>
+		
+		<h1> Most recent upload</h1>
+		
+		<iframe id="iframe" src="https://www.youtube.com/embed/videoseries?list=UURN0gskV6uxGpWvD3evI14A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<br/>
+	</body>
+</html>
